@@ -1,0 +1,126 @@
+:root {
+  /* --primary-color: #a21caf; */
+  --primary-color: rgb(134, 23, 143);
+  /* #86198F */
+  --secondary-color: rgba(238, 183, 45, 0.836);
+}
+
+.html {
+  scroll-behavior: smooth;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.front-page-box {
+  background: var(--secondary-color);
+  padding: 2rem;
+}
+
+.section {
+  min-height: 100vh;
+  background-color: var(--secondary-color);
+  /* padding: 1rem; */
+  box-shadow: 0px 0px 10px 20px var(--secondary-color);
+  margin: 30%;
+}
+
+.form-bg {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.privacy-box {
+  color: red;
+  border: 1px solid red;
+  padding: 0.5rem 0rem;
+  /* align-items: top; */
+  /* justify-content: top; */
+}
+
+.birthday-form {
+  flex-wrap: wrap;
+  gap: 1rem;
+  /* display: block; */
+  /* margin-bottom: 1rem; */
+  /* margin-top: 4rem; */
+  /* background-color: rgba(226, 98, 235, 0.6); */
+  /* background-color: var(--secondary-color); */
+  /* padding: 0.5rem 1rem; */
+  border-radius: 0.5rem;
+}
+
+.birthday-form label {
+  /* display: block; */
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
+  margin-top: 0.5rem;
+  margin-inline-end: 12.5rem;
+  padding-top: 0.5rem;
+}
+
+.birthday-form input {
+  /* display: block; */
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 20rem;
+  max-width: 100%;
+  margin-right: 1rem;
+  margin-bottom: 2rem;
+}
+
+.birthday-form button {
+  display: block;
+  padding: 0.5rem;
+  margin: auto;
+}
+
+.page-background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.output {
+  align-items: center;
+  /* padding: 1rem 0rem 0.5rem; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.label {
+  padding: 1rem 0rem 0.5rem;
+  display: flex;
+  width: fit-content;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.list-non-bullet {
+  list-style: none;
+}
+
+.list-item-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+  font-weight: bolder;
+}
+
+footer {
+  text-align: center;
+  border: 3px solid var(--secondary-color);
+  padding: 0rem 0rem 1rem;
+  margin-top: 5rem;
+}
+
+.footer-header {
+  font-weight: bold;
+  font-size: large;
+}
